@@ -57,9 +57,9 @@ app.get('/UserDetails',(req, res)=>{
 
 });
 
-// let port=process.env.PORT || 5000;
+const port=process.env.PORT || 5000;
 
 
-app.listen(process.env.PORT,()=>{
-    console.log(`Serve at ${process.env.PORT}`);    
+app.listen(port,()=>{
+    console.log(`Serve at ${port}`);    
 });
